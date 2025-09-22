@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Clinical Supplies</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Clinical Supplies</a>
+      <ul id="nav-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="products.html">Products</a></li>
+  <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button id="menu-toggle" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+  <main>
+    <section class="contact">
+      <h1>Contact Us</h1>
+      <form id="contact-form" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="form-message"></p>
+      </form>
+      <div class="contact-info">
+        <h2>Our Office</h2>
+        <p>123 Health Ave, Nairobi, Kenya</p>
+        <p>Email: info@clinicalsupplies.com</p>
+        <p>Phone: +254 700 000 000</p>
+        <h3>Business Hours</h3>
+        <ul>
+          <li>Monday – Friday: 8:00am – 6:00pm</li>
+          <li>Saturday: 9:00am – 1:00pm</li>
+          <li>Sunday & Public Holidays: Closed</li>
+        </ul>
+        <h3>Customer Support</h3>
+        <p>For urgent inquiries, call our 24/7 support line: <strong>+254 711 111 111</strong></p>
+        <h3>Find Us</h3>
+        <div style="width:100%;height:200px;background:#e6eef8;border-radius:1rem;margin-bottom:1rem;display:flex;align-items:center;justify-content:center;">
+          <span style="color:#1a365d;">[Google Map Placeholder]</span>
+        </div>
+      </div>
+      <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <dl>
+          <dt>How soon will I get a response?</dt>
+          <dd>We aim to respond to all messages within 1 business day.</dd>
+          <dt>Can I visit your office?</dt>
+          <dd>Yes, please call ahead to schedule a visit for personalized service.</dd>
+        </dl>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Clinical Supplies. All rights reserved.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

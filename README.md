@@ -1,90 +1,83 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+# Clinical Supplies Website
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+This project is a modern, interactive, and fully responsive multi-page website for a clinical supplies company based in Nairobi, Kenya. It showcases a wide range of medical products, company information, trusted partners, and contact options for clients and healthcare professionals.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🚀 Features
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- **Multipage structure:** Home, About, Products, and Contact pages
+- **Modern, professional design:** Trustworthy color scheme, fixed header, and clean layout
+- **Interactive UI:**
+   - Animated hero and section reveals
+   - Responsive mobile navigation
+   - Product cards with image flip effect (hover/focus to reveal details)
+   - Collapsible FAQ sections
+   - Contact form with validation and feedback
+- **Showcase of 20+ products:** Each with image, name, and description
+- **Trusted partners:** Logos and names of major Nairobi healthcare institutions
+- **Fully responsive:** Looks great on all devices
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📁 Project Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+```
+index.html           # Home page
+about.html           # About page
+products.html        # Products catalog (20+ items)
+contact.html         # Contact & FAQ
+js/
+   main.js            # All interactivity and animations
+styles/
+   styles.css         # All styling and responsive design
+images/
+   [product images]   # 20+ product images (see below)
+   [partner logos]    # 5 partner logos
+```
 
 ---
 
-## Deliverables
+## �️ Images Required
 
-1. A GitHub repository containing:
+**Product Images:**
+gloves.jpg, mask.jpg, syringe.jpg, thermometer.jpg, stethoscope.jpg, bandage.jpg, sanitizer.jpg, scalpel.jpg, wheelchair.jpg, crutches.jpg, defibrillator.jpg, bloodpressure.jpg, ivbag.jpg, oxygenmask.jpg, surgicalgown.jpg, face-shield.jpg, disinfectant.jpg, testkit.jpg, scissors.jpg, cottonwool.jpg, infusionpump.jpg
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+**Partner Logos:**
+kenyatta-hospital-logo.png, nairobi-hospital-logo.png, aga-khan-logo.png, kemsa-logo.png, gertrudes-logo.png
 
 ---
 
-## Outcome
+## �️ How to Run Locally
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+1. Download or clone this repository.
+2. Add the required images to the `images/` folder (see above for filenames).
+3. Open `index.html` in your browser to view the site.
+
+---
+
+## 🌍 Deployment
+
+You can deploy this site for free using:
+- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+
+**Steps for GitHub Pages:**
+1. Push your code to a public GitHub repository.
+2. Go to repository settings > Pages > Source: select `main` branch and `/root`.
+3. Save and use the provided URL to share your site.
+
+---
+
+## ✨ Credits
+
+- Built by [Your Name] for the PLP Academy Final Project
+- Product and partner images from Unsplash, Pexels, official hospital sites, or Wikipedia
+
+---
+
+## 📞 Contact
+
+For questions or feedback, use the contact form on the website or email info@clinicalsupplies.com
