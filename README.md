@@ -1,3 +1,8 @@
+#
+# 🌐 Live Demo
+#
+View the deployed website here: [https://clinical-supplies.netlify.app/](https://clinical-supplies.netlify.app/)
+
 
 # Clinical Supplies Website
 
@@ -57,23 +62,11 @@ kenyatta-hospital-logo.png, nairobi-hospital-logo.png, aga-khan-logo.png, kemsa-
 
 ---
 
-## 🌍 Deployment
 
-You can deploy this site for free using:
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-
-**Steps for GitHub Pages:**
-1. Push your code to a public GitHub repository.
-2. Go to repository settings > Pages > Source: select `main` branch and `/root`.
-3. Save and use the provided URL to share your site.
-
----
 
 ## ✨ Credits
 
-- Built by [Your Name] for the PLP Academy Final Project
+- Built by [Kira_Black] for the PLP Academy Final Project
 - Product and partner images from Unsplash, Pexels, official hospital sites, or Wikipedia
 
 ---
